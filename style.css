@@ -126,6 +126,24 @@ section.main {
   line-height: 30px;
 }
 
+section.sobre {
+  padding: 80px 0;
+}
+
+.chamada-sobre {
+  text-align: center;
+}
+
+.chamada-sobre h2 {
+  color: #124265;
+}
+
+.chamada-sobre p {
+  font-size: 14px;
+  color: gray;
+  margin: 10px 0;
+}
+
 @media screen and (max-width: 768px) {
   .diferencial-single {
     width: 100%;

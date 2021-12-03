@@ -69,6 +69,10 @@ section.main {
   background-attachment: fixed;
 }
 
+.menu-mobile {
+  display: none;
+}
+
 .main-cta {
   width: 100%;
   text-align: center;
@@ -164,19 +168,42 @@ section.sobre {
 
 section .conquistas {
   background-color: #f8fbfe;
-  padding: 8px 0;
+  padding: 20px 0;
 }
 
 .conquista-single {
   width: 22%;
   margin-right: 3%;
   text-align: center;
+  color: #124265;
+}
+
+.conquista-single h2 {
+  font-size: 35px;
 }
 
 @media screen and (max-width: 768px) {
   .diferencial-single {
     width: 100%;
     margin-bottom: 20px;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .logo {
+    width: 20%;
+  }
+
+  .menu-mobile {
+    width: 80%;
+    text-align: right;
+    display: block;
+  }
+
+  .menu-mobile i {
+    cursor: pointer;
   }
 
   .conteudo-sobre p {

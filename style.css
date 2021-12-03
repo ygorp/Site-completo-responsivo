@@ -131,11 +131,13 @@ section.sobre {
 }
 
 .chamada-sobre {
+  width: 100%;
   text-align: center;
 }
 
 .chamada-sobre h2 {
   color: #124265;
+  text-transform: uppercase;
 }
 
 .chamada-sobre p {
@@ -144,9 +146,25 @@ section.sobre {
   margin: 10px 0;
 }
 
+.conteudo-sobre {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.conteudo-sobre p {
+  margin: 0 20px;
+  color: #4444;
+}
+
+.conteudo-sobre i {
+  color: #007bff;
+  padding: 15px;
+}
+
 @media screen and (max-width: 768px) {
   .diferencial-single {
     width: 100%;
     margin-bottom: 20px;
   }
 }
+

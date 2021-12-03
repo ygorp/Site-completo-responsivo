@@ -204,6 +204,8 @@ section .conquistas {
 
   .menu-mobile i {
     cursor: pointer;
+    font-size: 23px;
+    margin-top: 8px;
   }
 
   .conteudo-sobre p {

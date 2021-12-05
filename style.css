@@ -185,9 +185,18 @@ section .conquistas {
 .menu-itens {
   position: absolute;
   left: 0;
-  top: 0;
+  top: 60px;
   width: 100%;
   text-align: center;
+  background-color: #ffffff;
+  border-bottom: 2px solid #007bff;
+  display: none;
+}
+
+.menu-itens a {
+  display: block;
+  text-decoration: none;
+  color: #007bff;
 }
 
 @media screen and (max-width: 768px) {

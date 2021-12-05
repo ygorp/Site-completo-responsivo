@@ -182,6 +182,10 @@ section .conquistas {
   font-size: 35px;
 }
 
+.conquista-single img {
+  max-width: 100%;
+}
+
 .menu-itens {
   position: absolute;
   left: 0;
@@ -234,6 +238,11 @@ section.sobre-empreendedor {
   color: #444444;
   font-size: 14px;
   margin-bottom: 14px;
+}
+
+.sobre-empreendedor-content i {
+  color: #007bff;
+  padding: 15px;
 }
 
 @media screen and (max-width: 768px) {

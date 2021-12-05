@@ -193,6 +193,14 @@ section .conquistas {
   display: none;
 }
 
+.menu-itens.show {
+  display: block;
+}
+
+.menu-itens.hidde {
+  display: none;
+}
+
 .menu-itens a {
   display: block;
   text-decoration: none;

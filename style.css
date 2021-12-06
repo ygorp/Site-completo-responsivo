@@ -256,6 +256,24 @@ section.sobre-empreendedor {
   padding: 15px;
 }
 
+section.depoimentos {
+  padding: 40px 0;
+}
+
+section.depoimentos .depoimentos-chamada {
+  text-align: center;
+}
+
+.depoimentos-chamada h2 {
+  color: #124265;
+  text-transform: uppercase;
+}
+
+.depoimentos-chamada p {
+  color: black;
+  font-size: 14px;
+}
+
 @media screen and (max-width: 768px) {
   .diferencial-single {
     width: 100%;
